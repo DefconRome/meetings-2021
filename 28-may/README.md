@@ -1,0 +1,4 @@
+## New Directions in Hypervisor Detection, by cristianrichie
+
+Hardware-assisted virtualization is indispensable for dynamic malware analysis but, it introduces timing discrepancies with respect to bare-metal machines and malware writers can exploit those to perform hypervisor detection.
+In this talk, we will see how despite sandboxes attempts to modify the values a malware can read from classical time sources, evasion is still possible. We will build two novel primitives taking advantage of recent microarchitectural research. The first involve the usage of a high-resolution covert time source to revisit well-known detection techniques. The second is a prime+probe attack on the last-level cache to detect virtual machine monitor pressure over cache memory caused by its execution from the hypervisor.
